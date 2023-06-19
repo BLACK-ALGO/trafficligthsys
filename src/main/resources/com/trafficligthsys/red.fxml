@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<VBox alignment="CENTER" prefHeight="409.0" prefWidth="193.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.trafficligthsys.RedController">
+   <children>
+      <Circle fill="#ff0026" radius="58.0" stroke="BLACK" strokeType="INSIDE">
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin></Circle>
+      <Circle fill="WHITE" radius="58.0" stroke="#320202" strokeType="INSIDE">
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin></Circle>
+      <Circle fill="WHITE" radius="58.0" stroke="BLACK" strokeType="INSIDE">
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin></Circle>
+   </children>
+</VBox>
